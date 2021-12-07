@@ -1,10 +1,55 @@
-- 👋 Hi, I’m @JzuvGTI1
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<p align="center">
+<img src="https://raw.githubusercontent.com/jesen-n/jesen-n/master/image/gambar.jpg" width="128" height="128"/>
+</p>
+<p align="center">
+<a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/Jesen-N"><img title="Author" src="https://img.shields.io/badge/Author-Jesen N-blueviolet.svg?style=for-the-badge&logo=github"></a>
+</p>
 
-<!---
-JzuvGTI1/JzuvGTI1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Info
+- termux whatsapp bot economy use quick.db
+
+## Install
+- git clone https://github.com/Jesen-N/termux-wabot-economy
+- bash install.sh
+- node index.js
+
+##  Editing file
+Edit the required value in `data/config.json`.
+```json
+{
+    "prefix": "!",
+    "ownerNumber": "628xxxx@s.whatsapp.net"
+}
+```
+
+## Fieture
+```bash
+Command:
+> join (register)
+> profile
+> daily
+> work
+> balance/bal
+> leaderboard/lb
+> pay [tag] [amount]
+> deposit/dep [all/amout]
+> withdraw/wd [all/amount]
+> gamble/gb [amount]
+> qq [amount]
+> shop
+> buy [item]
+
+Owner Command:
+> add [amount] (to add your money)
+> addmoney [tag] [amount] 
+
+Other:
+> about
+```
+
+## Thanks To
+- [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys)
+- [MhankBarBar](https://github.com/MhankBarBar)
